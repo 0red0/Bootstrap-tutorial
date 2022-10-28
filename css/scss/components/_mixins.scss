@@ -1,0 +1,13 @@
+// GRADIENT MIXIN
+@mixin gradient {
+   background: linear-gradient(
+      to right,
+      rgba($primary-dark, 0.95),
+      rgba($primary-light, 0.95)
+   );
+}
+@mixin media-max-sm {
+   @media #{$smDown} {
+      @content;
+   }
+}

@@ -1,0 +1,37 @@
+.btn-rounded {
+   @include media-max-sm {
+      display: none;
+   }
+   position: relative;
+   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+   font-weight: 700;
+   margin: 0;
+   border: 0.1rem solid #fff;
+   background-color: #fff;
+   transition: 0.3s;
+   span {
+      content: "";
+      position: absolute;
+      background-color: $primary-dark;
+      width: 2.5rem;
+      height: 2.5rem;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      * {
+         color: #fff;
+         font-size: 1.1rem;
+      }
+   }
+   &:hover {
+      @include gradient;
+      color: #fff;
+      span {
+         background-color: #0006;
+      }
+   }
+}

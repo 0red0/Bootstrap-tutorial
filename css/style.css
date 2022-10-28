@@ -1,1 +1,75 @@
-/*# sourceMappingURL=style.css.map */
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  border: 0.1rem solid #fff;
+  background-color: #fff;
+  transition: 0.3s;
+}
+@media (max-width: 566px) {
+  .btn-rounded {
+    display: none;
+  }
+}
+.btn-rounded span {
+  content: "";
+  position: absolute;
+  background-color: #9926f0;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-rounded span * {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.btn-rounded:hover {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
+  color: #fff;
+}
+.btn-rounded:hover span {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.display-2--intro {
+  display: block;
+  font-weight: 700;
+}
+.display-2--description {
+  font-size: 1.5rem;
+  line-height: 0;
+}
+
+nav.menu {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
+}
+nav.menu li {
+  padding: 0 0.7rem;
+}
+nav.menu li a {
+  color: #fff !important;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+@use "./scss/components/variables" as *;
+@import "./scss/components/mixins";
+@import "./scss/components/global";
+@import "./scss/components/buttons";
+@import "./scss/components/typography";
+@import "./scss/sections/navbar";
+@import "./scss/sections/intro-section";
+@import "./scss/sections/Companies";
+@import "./scss/sections/faq";
+@import "./scss/sections/footer";
+@import "./scss/sections/services";
+@import "./scss/sections/testimonials";
