@@ -1,6 +1,6 @@
 .btn-rounded {
    @include media-max-sm {
-      display: none;
+      display: none !important;
    }
    position: relative;
    padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;

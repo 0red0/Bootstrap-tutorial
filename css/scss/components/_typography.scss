@@ -6,7 +6,35 @@
       font-weight: 700;
    }
    &--description {
-      font-size: 1.5rem;
-      line-height: 0;
+      font-size: 1.4rem;
+      line-height: 1.5;
+      display: block;
+      padding-top: 1.2rem;
+      @include media-min-md {
+         font-size: 1.8rem;
+         display: inline-block;
+      }
    }
 }
+// HEADING UNDERLINE
+.heading-line {
+   &::before {
+      content: "";
+      width: 10rem;
+      height: 0.1rem;
+      display: block;
+      background-color: $primary-dark;
+      margin: 0 auto;
+   }
+   &::after {
+      content: "";
+      width: 2.5rem;
+      height: 0.5rem;
+      display: block;
+      background-color: $primary-dark;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+   }
+}
+
+// DISPLAY-3
