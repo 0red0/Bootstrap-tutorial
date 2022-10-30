@@ -1,0 +1,21 @@
+.services {
+   position: relative;
+   padding: 1rem 0;
+   &__content {
+      padding: 1rem;
+      margin-top: 5rem;
+      @include media-max-mb {
+         margin-top: 0px;
+      }
+      .icon {
+         font-size: 2.5rem;
+         color: $primary-dark;
+      }
+   }
+   div.imgHide {
+      max-width: 100%;
+      @include media-max-mb {
+         display: none;
+      }
+   }
+}

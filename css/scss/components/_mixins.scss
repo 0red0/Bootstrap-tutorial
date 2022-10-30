@@ -11,8 +11,13 @@
       @content;
    }
 }
-@mixin media-min-md {
-   @media #{$mdUp} {
+@mixin media-min-mb {
+   @media #{$mbUp} {
+      @content;
+   }
+}
+@mixin media-max-mb {
+   @media #{$mbDown} {
       @content;
    }
 }

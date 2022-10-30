@@ -62,6 +62,10 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.border-clr1 {
+  border-color: #bb6ef5;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
@@ -99,6 +103,21 @@
   background-color: #9926f0;
   margin: 0 auto;
   margin-bottom: 1rem;
+}
+
+.display-3--title {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  background: linear-gradient(to right, #9926f0, #bb6ef5);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-right {
+  border-right: 0.1rem solid rgba(128, 128, 128, 0.384);
 }
 
 nav.menu {
@@ -164,4 +183,77 @@ nav.menu li a {
 }
 .companies__logo-box img:hover {
   filter: grayscale(1);
+}
+
+.faq .accordion-button {
+  padding: 1.5rem;
+}
+
+.services {
+  position: relative;
+  padding: 1rem 0;
+}
+.services__content {
+  padding: 1rem;
+  margin-top: 5rem;
+}
+@media (max-width: 768px) {
+  .services__content {
+    margin-top: 0px;
+  }
+}
+.services__content .icon {
+  font-size: 2.5rem;
+  color: #9926f0;
+}
+.services div.imgHide {
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .services div.imgHide {
+    display: none;
+  }
+}
+
+.testimonials {
+  position: relative;
+  padding: 0;
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(187, 110, 245, 0.95));
+}
+.testimonials .card {
+  background-color: rgba(255, 255, 255, 0.5333333333);
+  padding: 2rem 1.25rem;
+  border-radius: 0.625rem;
+  text-align: center;
+}
+.testimonials .card svg {
+  font-size: 1.5rem;
+  color: #9926f0;
+}
+.testimonials .card .ratings svg {
+  font-size: 1rem;
+}
+.testimonials .picture {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials .picture img {
+  border: 0.325rem solid #bb6ef5;
+}
+.testimonials .name {
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+.testimonials .name h3 {
+  padding-top: 0.8rem;
+}
+.testimonials .name p {
+  padding-bottom: 2rem;
+  opacity: 0.8;
 }/*# sourceMappingURL=style.css.map */

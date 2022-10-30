@@ -4,8 +4,10 @@ $secondary-pink: #d122e3;
 
 $smUp: "(min-width: 565px)";
 $smDown: "(max-width: 566px)";
-$mdUp: "(min-width: 767px)";
-$mdDown: "(max-width: 768px)";
+$mbUp: "(min-width: 767px)";
+$mbDown: "(max-width: 768px)";
+$mdUp: "(min-width: 991px)";
+$mdDown: "(max-width: 992px)";
 
 @keyframes pulse-border {
    0% {
