@@ -51,3 +51,8 @@
 .border-right {
    border-right: 0.1rem solid rgba(128, 128, 128, 0.384);
 }
+
+// GRADIENT BG
+.gradient {
+   @include gradient;
+}
